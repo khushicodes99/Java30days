@@ -13,8 +13,9 @@ public class Day2_prime {
         {
             if(nos%i==0)
             {
-                System.out.println(nos+"is not a prime number");
+                System.out.println(nos+" is not a prime number");
                 flag=1;
+                break;
             }
         }
         if(flag==0)
